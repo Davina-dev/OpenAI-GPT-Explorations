@@ -1,12 +1,12 @@
 import os
-import openai
+from openai import OpenAI
 from dotenv import load_dotenv
 
 # Load environment variables from a .env file
 load_dotenv()
 
 # Initialize the OpenAI client using the API key loaded from the .env file
-client = openai.OpenAI()
+client = OpenAI()
 
 # Lists to store the history of questions and answers
 preguntas_anteriores = []

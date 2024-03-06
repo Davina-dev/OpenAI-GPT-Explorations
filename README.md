@@ -1,4 +1,4 @@
-git status# OpenAI API Exploration with Python 🚀
+OpenAI API Exploration with Python 🚀
 
 Welcome to this repository, where we embark on a learning adventure to uncover the capabilities of the OpenAI API. This project is a basic practice intended for those curious about how the OpenAI API works and what can be achieved with it.
 
