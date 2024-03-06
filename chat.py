@@ -2,12 +2,8 @@ import os
 import openai
 from dotenv import load_dotenv
 
-# Cargar variables de entorno
 load_dotenv()
-
-# Configurar la clave API de OpenAI
 client = openai.OpenAI()
-
 
 def preguntar_chat_gpt(ingreso_usuario, model="gpt-3.5-turbo"):
 
