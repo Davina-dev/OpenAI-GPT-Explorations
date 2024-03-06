@@ -7,7 +7,7 @@ load_dotenv()
 client = OpenAI()
 print("API Key:", client.api_key)
 
-# # Here we make a call to the OpenAI API to generate a humorous story about being a junior developer
+# Here we make a call to the OpenAI API to generate a humorous story about being a junior developer
 completion = client.chat.completions.create(
   model="gpt-3.5-turbo",
  messages=[
