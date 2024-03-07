@@ -22,12 +22,10 @@ def analyze_feelings(text, model=model_default):
         max_tokens=100,
         temperature=0.5
     )
-    
-    # Devuelve la respuesta generada por el modelo
     return response.choices[0].message.content
 
 # Solicita al usuario que ingrese un texto para analizar
-texto_para_analizar = input("🤖 ingresa un texto: ")
+texto_para_analizar = input("🤖 ingresa un texto sin saltos de linea: ")
 sentimiento = analyze_feelings(texto_para_analizar)
 
 # Imprime el sentimiento analizado corrigiendo el error de typo en la variable 'sentimiento'
