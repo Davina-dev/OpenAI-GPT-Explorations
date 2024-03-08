@@ -43,7 +43,7 @@ print(opcion_usuario)
 
 if opcion_usuario == '1':
     # Solicita al usuario que ingrese datos para generar un artículo
-    article_topic = input('🤖: Elige un tema para tu artículo: ')
+    article_topic = input('Elige un tema para tu artículo: ')
     tokens = int(input('🤖: ¿Cuántos tokens quieres que tenga tu artículo? '))
     creativity_level = float(input('🤖: ¿Del 1 al 10, qué tan creativo quieres que sea tu artículo? ')) / 10
     articulo_creado = crear_contenido(article_topic, tokens, creativity_level)
